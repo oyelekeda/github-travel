@@ -54,6 +54,20 @@ nav ul li a:hover {
   padding-bottom: 5px;
 }
 
+.btn {
+  padding: 12px 25px;
+  background: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+.btn:hover {
+  background: #e55353;
+}
+
 /* Footer */
 footer {
   background: #f5f5f5;
