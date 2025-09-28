@@ -5,102 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us - Fly Better</title>
     <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      background-color: #0047ab;
-      color: #fff;
-      padding: 15px 30px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    nav a {
-      color: #fff;
-      margin-left: 15px;
-      text-decoration: none;
-    }
-
-    .container {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 0 20px;
-    }
-
-    h2 {
-      color: #0047ab;
-    }
-
-    form {
-      display: flex;
-      flex-direction: column;
-    }
-
-    label {
-      margin-top: 15px;
-      margin-bottom: 5px;
-      font-weight: bold;
-    }
-
-    input, textarea {
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      font-size: 16px;
-    }
-
-    button {
-      margin-top: 20px;
-      padding: 12px;
-      background-color: #0047ab;
-      color: #fff;
-      border: none;
-      border-radius: 4px;
-      font-size: 16px;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: #003a91;
-    }
-
-    .map {
-      margin-top: 40px;
-    }
-
-    .map iframe {
-      width: 100%;
-      height: 300px;
-      border: none;
-    }
-
-    .social-links {
-      margin-top: 30px;
-      text-align: center;
-    }
-
-    .social-links a {
-      margin: 0 15px;
-      font-size: 40px;
-      transition: transform 0.3s;
-      display: inline-block;
-    }
-
-    .social-links a:hover {
-      transform: scale(1.2);
-    }
-    .facebook { color: #3b5998; }
-    .twitter { color: #1da1f2; }
-    .instagram { color: #e1306c; }
-    .linkedin { color: #0077b5; }
-  </style>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav>
@@ -114,23 +21,33 @@
       </ul>
     </nav>
 
-    
-  <div class="container" id="contact-us">
-    <h1 style="scroll-margin-top: 100px;">Contact Us</h1>
-    <p>Have questions or want to work with us? Send us a message below or connect with us on social media.</p>
+    <section class="contact-section">
+    <h4>Contact Us</h4>
+    <h2>Contact For Any Query</h2>
 
-    <form action="#" method="POST">
-      <label for="name">Full Name</label>
-      <input type="text" id="name" name="name" required>
+    <div class="contact-info">
+      <h3>Booking</h3>
+      <p><i class="fa fa-envelope"></i> book@example.com</p>
+    </div>
 
-      <label for="email">Email Address</label>
-      <input type="email" id="email" name="email" required>
+    <div class="contact-info">
+      <h3>General</h3>
+      <p><i class="fa fa-envelope"></i> book@example.com</p>
+    <div class="contact-info">
+      <h3>Technical</h3>
+      <p><i class="fa fa-envelope"></i> tech@example.com</p>
+    </div>
 
-      <label for="message">Message</label>
-      <textarea id="message" name="message" rows="6" required></textarea>
-
-      <button type="submit">Send Message</button>
-    </form>
+    <div class="contact-form">
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <input type="text" name="subject" placeholder="Subject" required>
+        <textarea name="message" placeholder="Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
 
     
     <div class="map">
@@ -148,7 +65,18 @@
       <a href="https://linkedin.com" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
     </div>
   </div>
+  
 
+
+    <div class="newsletter">
+      <h3>Newsletter</h3>
+      <p>.</p>
+      <form action="#" method="post">
+        <input type="email" placeholder="Your email" required>
+        <button type="submit">Signup</button>
+      </form>
+    </div>
+  
 
 
 
