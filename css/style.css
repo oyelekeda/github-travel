@@ -51,7 +51,7 @@ nav ul li a {
 }
 nav ul li a:hover {
   border-bottom: 2px solid #ff6b6b;
-  padding-bottom: 5px;
+  padding-bottom: 5px; 
 }
 
 .btn {
